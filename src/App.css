@@ -1,0 +1,103 @@
+.appFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  /* max-height: 100vh; */
+  color: black;
+  padding: 0 1em;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  color: inherit;
+  margin-top: 40px;
+}
+
+.headerTitle {
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.headerSubTitle {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 85%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  color: inherit;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 100%;
+  border-radius: 0.15em;
+  color: inherit;
+  margin: 1em 2em;
+  border: 0.4em solid #929292;
+  overflow: hidden;
+}
+
+.demoMain {
+  display: flex;
+  justify-content: center;
+  min-height: 16rem;
+  max-height: 16rem;
+  overflow: auto scroll;
+  background-color: white;
+  color: black;
+  flex-grow: 0;
+  width: 100%;
+}
+
+.articleTitle {
+  padding: 0.75em;
+  font-weight: bold;
+}
+
+.grow1x {
+  flex: 1;
+}
+
+.grow2x {
+  flex: 2;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 auto;
+  width: 100%;
+  font-weight: bold;
+  font-size: 80%;
+  color: slategray;
+  background-color: transparent;
+  padding-top: 1.5em;
+  padding-bottom: 0.75em;
+}
+
+.footerButton {
+  color: inherit;
+  scale: 2;
+  padding: 0 1em;
+  margin-left: 2em;
+  text-decoration: none;
+}
